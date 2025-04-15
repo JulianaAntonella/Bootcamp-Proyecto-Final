@@ -27,7 +27,39 @@
             <a href="#">TITULO</a>
         </div>
 
+    </header>
+    
+    <main>
+        <div><!--div del buscador-->
+            <label for="origen">Origen:</label>
+            <select id="origen">
+                <option value="">Cargando origenes</option>
+            </select>
 
+            <label for="destino">Destino:</label>
+            <select id="destino"></select>
+            
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha"/>
+
+            <button id="buscarBtn">Buscar vuelos</button>
+        </div>
+
+        <div id="resultados"> <!--div padre que adentro va resultado de vuelos e imagenes-->
+            <div> <!--div van adentro resultado de vuelos-->
+
+            </div>
+
+            <div> <!--div van adentro imagenes de los destinos-->
+
+            </div>
+
+        </div>
+
+
+
+    </main>
+    <script src="js/origenDestino.js"></script>
 </body>
 
 </html>
