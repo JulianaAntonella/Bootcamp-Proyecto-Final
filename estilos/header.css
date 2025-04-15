@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 500px;
+    background-color: white;
+    border-top: 5px solid #007bff; /* Línea azul superior */
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    gap: 100px;
+}
+
+.nav-left a, .nav-right a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+}
+
+.logo .dot {
+    width: 7px;
+    height: 7px;
+    background-color: #FFD700;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
