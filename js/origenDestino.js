@@ -1,4 +1,4 @@
-let arrayCiudades = ["Pereira", "Cartagena", "Bogota", "Medellin", "San Andres", "Cali"]
+let arrayCiudades = ["Manizales", "Cartagena", "Cali", "San Andres", "Bogota", "Medellin", "Armenia", "Barranquilla", "Popayan", "Neiva"]
 function cargadeOpciones(){
     let origenSelect= document.getElementById("origen");
     for(let i=0; i<arrayCiudades.length; i++){
@@ -55,6 +55,8 @@ function actualizarDestino() {
               vuelo.destino === destino &&
               vuelo.fecha === fecha
             );
+
+            resultados.sort((a, b) => a.hora.localeCompare(b.hora));
       
             if (resultados.length === 0) {
               resultadosDiv.innerHTML = "<p>No hay vuelos disponibles para esa ruta y fecha.</p>";
@@ -74,7 +76,7 @@ function actualizarDestino() {
                 resultadosDiv.innerHTML += resultadoHTML;
               }
 
-                for (let i = 1; i <= 2; i++) {
+                for (let i = 1; i <= 3; i++) {
                 let img = document.createElement("img");
                 img.src = `../img/${destino}${i}.jpg`;
                 img.alt = `Imagen de ${destino}`;
