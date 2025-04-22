@@ -1,0 +1,172 @@
+[
+	{
+	  "id": 43,
+	  "name": "Aeropuerto La Nubia",
+	  "iataCode": "MZL",
+	  "deparmentId": 8,
+	  "department": {
+		"id": 8,
+		"name": "Caldas",
+		"description": "Caldas es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, forman la República de Colombia. Su capital es Manizales. Está ubicado en el centro del país, en la región andina, limitando al norte con Antioquia, al noreste con Boyacá, al este con Cundinamarca, al sur con Tolima y Risaralda y al oeste con Risaralda. Con 7888 km² es el quinto departamento menos extenso —por delante de Risaralda, Atlántico, Quindío y San Andrés y Providencia, el menos extenso— y con 125 hab/km², el sexto más densamente poblado, por detrás de San Andrés y Providencia, Atlántico, Quindío, Risaralda y Valle del Cauca"
+	  },
+	  "cityId": 337,
+	  "city": {
+		"id": 337,
+		"name": "Manizales",
+		"description": "Manizales es un municipio colombiano, capital del departamento de Caldas. Está ubicado en el centro occidente de Colombia en la región paisa, así como en el eje cafetero, sobre la Cordillera Central de los Andes, cerca del Nevado del Ruiz. Tiene una población de 454,077 habitantes (2022). Es la región más poblada y competitiva del departamento con un aporte del 68% de su PIB total."
+	  }
+	},
+	{
+	  "id": 7,
+	  "name": "Aeropuerto Internacional Rafael Núñez",
+	  "iataCode": "CTG",
+	  "deparmentId": 6,
+	  "department": {
+		"id": 6,
+		"name": "Cartagena",
+		"description": "Bolívar es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, forman la República de Colombia. Su capital es Cartagena de Indias, sede de la asamblea departamental, mientras que en Turbaco se encuentra la sede de la gobernación. Está ubicado en la región Caribe, limitando al norte con el mar Caribe (océano Atlántico), al noreste con Atlántico, al este con Magdalena y Cesar, al sureste con Santander, al suroeste con Antioquia y al oeste con Córdoba y Sucre."
+	  },
+	  "cityId": 210,
+	  "city": {
+		"id": 210,
+		"name": "Cartagena",
+		"description": "Cartagena es un municipio del departamento de Bolívar, Colombia, ubicado en el sistema orográfico de los Montes de María, siendo la población más grande, así como la que concentra el movimiento económico y comercial de la subregión. Está a 120 km al sudeste de Cartagena de Indias y a 69 km al norte de Sincelejo."
+	  }
+	},
+	{
+	  "id": 5,
+	  "name": "Aeropuerto Internacional Alfonso Bonilla Aragón",
+	  "iataCode": "CLO",
+	  "deparmentId": 31,
+	  "department": {
+		"id": 31,
+		"name": "Valle del Cauca",
+		"description": "Valle del Cauca es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, forman la República de Colombia. Su capital es Cali. Está ubicado en las regiones Andina y del Pacífico, limitando al norte con Chocó y Risaralda, al este con Quindío y Tolima, al sur con Cauca y al oeste con el océano Pacífico. Con 4 600 000 habitantes en 2015 es el segundo departamento más poblado"
+	  },
+	  "cityId": 1093,
+	  "city": {
+		"id": 1093,
+		"name": "Cali",
+		"description": "Cali, oficialmente Distrito Especial, Deportivo, Cultural, Turístico, Empresarial y de Servicios de Santiago de Cali,8​9​10​ es un distrito colombiano, capital del departamento de Valle del Cauca,2​ la tercera ciudad más poblada y el tercer centro económico y cultural de Colombia. Está situada en la región Sur del Valle del Cauca."
+	  }
+	},
+	{
+	  "id": 11,
+	  "name": "Aeropuerto Internacional Gustavo Rojas Pinilla",
+	  "iataCode": "ADZ",
+	  "deparmentId": 27,
+	  "department": {
+		"id": 27,
+		"name": "San Andrés y Providencia",
+		"description": "El archipiélago de San Andrés, Providencia y Santa Catalina (en inglés y criollo sanandresano: Archipelago of San Andrés, Providencia and Santa Catalina) es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, forman la República de Colombia. Su capital es San Andrés. Está ubicado al oeste del mar Caribe (océano Atlántico) en Centroamérica, a 775 km (480 millas náuticas) al noroeste de la costa atlántica del territorio continental del país, y a 220 km (140 millas náuticas) de las costas orientales de Nicaragua"
+	  },
+	  "cityId": 912,
+	  "city": {
+		"id": 912,
+		"name": "San Andrés",
+		"description": "San Andrés, conocido localmente como North End o Sector del Centro es el centro administrativo, turístico y comercial del departamento colombiano de San Andrés, Providencia y Santa Catalina."
+	  }
+	},
+	{
+	  "id": 9,
+	  "name": "Aeropuerto Internacional José María Córdova",
+	  "iataCode": "MDE",
+	  "deparmentId": 2,
+	  "department": {
+		"id": 2,
+		"name": "Antioquia",
+      "description": "Antioquia es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, forman la República de Colombia. Su capital es Medellín, la segunda ciudad más poblada del país. Está ubicado al noroccidente colombiano, en las regiones Andina y Caribe, limitando al norte con el mar Caribe (océano Atlántico), Córdoba y Bolívar, al este con Santander y Boyacá, al sur con Caldas y Risaralda, y al oeste con Chocó. Con unos 6 500 000 habitantes en 2015 es el departamento más poblado, y con 63 600 km², el sexto más extenso, superado por Amazonas, Vichada, Caquetá, Meta y Guainía."
+	  },
+	  "cityId": 12,
+	  "city": {
+		"id": 12,
+		"name": "Medellín",
+      "description": "Medellín es un distrito colombiano, capital del departamento de Antioquia. Es la ciudad más poblada del departamento y la segunda más poblada del país después de Bogotá.8​ Está ubicada en la parte más ancha de la región natural conocida como Valle de Aburrá, en la cordillera central de los Andes. Está extendida por ambas orillas del río Medellín, que la atraviesa de sur a norte, y es el municipio principal del Área metropolitana del Valle de Aburrá.9​"
+	  }
+	},
+	{
+	  "id": 44,
+	  "name": "Aeropuerto Militar CATAM",
+	  "iataCode": "BOG",
+	  "deparmentId": 5,
+	  "department": {
+		"id": 5,
+		"name": "Bogotá",
+		"description": "Bogotá, oficialmente Bogotá, Distrito Capital​ (antiguamente, Santafé de Bogotá),​ es la capital de la República de Colombia y del departamento de Cundinamarca. Está administrada como distrito capital, y goza de autonomía para la gestión de sus intereses dentro de los límites de la Constitución y la ley.12​18​ A diferencia de los demás distritos de Colombia, Bogotá es una entidad territorial de primer orden, con las atribuciones administrativas que la ley confiere a los departamentos"
+	  },
+	  "cityId": 167,
+	  "city": {
+		"id": 167,
+		"name": "Bogotá D.C.",
+		"description": "Bogotá, oficialmente Bogotá, Distrito Capital​ (antiguamente, Santafé de Bogotá y originalmente, Santafé),​ es la capital de la República de Colombia y del departamento de Cundinamarca. Está administrada como distrito capital, y goza de autonomía para la gestión de sus intereses dentro de los límites de la Constitución y la ley.12​18​ A diferencia de los demás distritos de Colombia, Bogotá es una entidad territorial de primer orden, con las atribuciones administrativas que la ley confiere a los departamentos"
+	  }
+	},
+	{
+	  "id": 1,
+	  "name": "Aeropuerto Internacional El Edén",
+	  "iataCode": "AXM",
+	  "deparmentId": 25,
+	  "department": {
+		"id": 25,
+		"name": "Quindío",
+		"description": "Quindío, también llamado El Quindío, es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, forman la República de Colombia. Su capital es Armenia. Está ubicado en el centro-oeste del país, en la región andina, limitando al norte con Risaralda, al este con Tolima y al oeste con Valle del Cauca. Con 1845 km² es el segundo departamento menos extenso —por delante de San Andrés y Providencia— y con 306 hab/km², el tercero más densamente poblado, por detrás de San Andrés y Providencia y Atlántico. Pertenece al eje cafetero y a la región paisa"
+	  },
+	  "cityId": 885,
+	  "city": {
+		"id": 885,
+		"name": "Armenia",
+		"description": "Armenia es un municipio colombiano, capital del departamento del Quindío y núcleo económico de su área metropolitana. Es una de las principales ciudades del eje cafetero colombiano, la región paisa y el Paisaje Cultural Cafetero.4​ Fundada en 1889 durante la colonización antioqueña, basó su economía en la agricultura"
+	  }
+	},
+	{
+	  "id": 2,
+	  "name": "Aeropuerto Internacional Ernesto Cortissoz",
+	  "iataCode": "BAQ",
+	  "deparmentId": 4,
+	  "department": {
+		"id": 4,
+		"name": "Atlántico",
+		"description": "El Atlántico es uno de los treinta y dos departamentos que, junto a Bogotá, Distrito Capital, forman la República de Colombia. Su capital es Barranquilla. Ubicado en la región Caribe, limita al norte con el mar Caribe, al Oriente con el río Magdalena y al Sur y al Occidente con el departamento de Bolívar. Con unos 2 500 000 habitantes en 2015, es el cuarto departamento más poblado (por detrás de Antioquia, Valle del Cauca y Cundinamarca); con 3019 km² es el tercero menos extenso (por delante de Quindío y San Andrés y Providencia, el menos extenso) y con 815 hab/km² es el segundo más densamente poblado (por detrás de San Andrés y Providencia)"
+	  },
+	  "cityId": 144,
+	  "city": {
+		"id": 144,
+		"name": "Barranquilla",
+		"description": "El Área metropolitana de Barranquilla es una conurbación colombiana ubicada en el norte del departamento de Atlántico. Su municipio principal es la capital departamental Barranquilla, y los otros municipios periféricos que la integran son Soledad, Galapa, Puerto Colombia y Malambo. Es la primera conurbación de la Región Caribe, la más densamente poblada y la cuarta del país."
+	  }
+	},
+	{
+	  "id": 30,
+	  "name": "Aeropuerto Guillermo León Valencia",
+	  "iataCode": "PPN",
+	  "deparmentId": 11,
+	  "department": {
+		"id": 11,
+		"name": "Cauca",
+		"description": "Cauca es uno de los treinta y dos departamentos que, junto al Distrito Capital de Bogotá, conforman la República de Colombia. Su capital y ciudad más poblada es Popayán. Está ubicado al suroccidente del país entre las regiones andina y pacífica, limitando al norte con Valle del Cauca y Tolima, al oriente con Huila, al suroriente con Caquetá, al sur con Putumayo y Nariño, y al noroccidente con el océano Pacífico"
+	  },
+	  "cityId": 399,
+	  "city": {
+		"id": 399,
+		"name": "Popayán",
+		"description": "Popayán, oficialmente Asunción de Popayán es un municipio colombiano, capital del departamento del Cauca. Se encuentra localizado en el Valle de Pubenza, entre la Cordillera Occidental y Central al suroccidente del país. Su extensión territorial es de 512 km², su altitud media es de 1760 m sobre el nivel del mar, su precipitación media anual de 1941 mm, su temperatura promedio de 14/19 °C y distancia aproximada de 600 km a Bogotá, capital de Colombia."
+	  }
+	},
+	{
+	  "id": 27,
+	  "name": "Aeropuerto Benito Salas",
+	  "iataCode": "NVA",
+	  "deparmentId": 18,
+	  "department": {
+		"id": 18,
+		"name": "Huila",
+		"description": "Huila es uno de los treinta y dos departamentos que junto con Bogotá, Distrito Capital, conforman la República de Colombia. Su capital y ciudad más poblada es Neiva. Está ubicado al suroeste del país, en la región andina, limitando al norte con Tolima y Cundinamarca, al este con Meta, al sur con Caquetá y al oeste con Cauca."
+	  },
+	  "cityId": 657,
+	  "city": {
+		"id": 657,
+		"name": "Neiva",
+		"description": "Neiva es un municipio colombiano, capital del departamento de Huila. Yace entre la cordillera Central y Oriental, en una planicie sobre la margen oriental del río Magdalena, en el valle del mismo nombre, cruzada por el río Las Ceibas y el río del Oro. Su extensión territorial de 1533 km², su altura de 442 metros sobre el nivel del mar y su temperatura promedio de 27.7 "
+	  }
+	}	
+]
