@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clima por Ciudad</title>
+  <link rel="stylesheet" href="../estilos/header.css">
+  <link rel="stylesheet" href="../estilos/Clima.css">
+  <link rel="stylesheet" href="../estilos/reset.css">
+</head>
+<body>
+  <header class="header">
+    <div class="nav-left">
+        <a href="../index.html">VUELOS</a>
+        <a href="../html/turismo.html">TURISMO</a>
+    </div>
+
+    <div class="logo">
+        <span class="logo-content">
+            VUELA ALTO
+            <span class="dot"></span>
+        </span>
+    </div>
+
+    <div class="nav-right">
+        <a href="#">ESTADISTICAS VUELOS</a>
+        
+    </div>
+
+</header>
+
+
+  <h1>Entérate sobre el clima en tu ciudad o tu destino</h1>
+  <div class="contenedor-select">
+  <select id="ciudad" class="select-ciudad">
+    <option value="">Selecciona una ciudad</option>
+    <option value="Pereira">Pereira</option>
+    <option value="Manizales">Manizales</option>
+    <option value="Medellín">Medellín</option>
+    <option value="Cartagena">Cartagena</option>
+    <option value="San Andrés">San Andrés</option>
+    <option value="Armenia">Armenia</option>
+    <option value="Cali">Cali</option>
+    <option value="Bogotá">Bogotá</option>
+    <option value="Barranquilla">Barranquilla</option>
+    <option value="Neiva">Huila</option>
+    <option value="Amazonas">Amazonas</option>
+    <option value="Riohacha">Riohacha</option>
+  </select>
+</div>
+  <button id="buscar">Buscar</button>
+  
+  <div id="clima"></div>
+  <div id="resultados"></div>
+
+  <script src="../js/clima.js"></script>
+</body>
+</html>
