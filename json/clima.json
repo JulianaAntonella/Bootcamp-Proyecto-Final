@@ -1,0 +1,101 @@
+{
+    "destinos": [
+      {
+        "ciudad": "Pereira",
+        "temperatura": 24,
+        "sensacion_termica": 25,
+        "estado_cielo": "Parcialmente nublado",
+        "humedad": 76,
+        "viento_kmh": 10
+      },
+      {
+        "ciudad": "Medellín",
+        "temperatura": 26,
+        "sensacion_termica": 27,
+        "estado_cielo": "Soleado",
+        "humedad": 68,
+        "viento_kmh": 8
+      },
+      {
+        "ciudad": "Cartagena",
+        "temperatura": 32,
+        "sensacion_termica": 36,
+        "estado_cielo": "Soleado",
+        "humedad": 70,
+        "viento_kmh": 14
+      },
+      {
+        "ciudad": "San Andrés",
+        "temperatura": 30,
+        "sensacion_termica": 34,
+        "estado_cielo": "Lluvia ligera",
+        "humedad": 80,
+        "viento_kmh": 18
+      },
+      {
+        "ciudad": "Armenia",
+        "temperatura": 22,
+        "sensacion_termica": 21,
+        "estado_cielo": "Nublado",
+        "humedad": 78,
+        "viento_kmh": 9
+      },
+      {
+        "ciudad": "Cali",
+        "temperatura": 28,
+        "sensacion_termica": 29,
+        "estado_cielo": "Soleado",
+        "humedad": 65,
+        "viento_kmh": 12
+      },
+      {
+        "ciudad": "Bogotá",
+        "temperatura": 16,
+        "sensacion_termica": 14,
+        "estado_cielo": "Llovizna",
+        "humedad": 85,
+        "viento_kmh": 10
+      },
+      {
+        "ciudad": "Barranquilla",
+        "temperatura": 31,
+        "sensacion_termica": 35,
+        "estado_cielo": "Soleado",
+        "humedad": 68,
+        "viento_kmh": 16
+      },
+      {
+        "ciudad": "Neiva",
+        "temperatura": 34,
+        "sensacion_termica": 37,
+        "estado_cielo": "Despejado",
+        "humedad": 50,
+        "viento_kmh": 13
+      },
+      {
+        "ciudad": "Manizales",
+        "temperatura": 18,
+        "sensacion_termica": 17,
+        "estado_cielo": "Niebla",
+        "humedad": 90,
+        "viento_kmh": 6
+      },
+      {
+        "ciudad": "Amazonas",
+        "temperatura": 29,
+        "sensacion_termica": 33,
+        "estado_cielo": "Tormenta eléctrica",
+        "humedad": 92,
+        "viento_kmh": 20
+      },
+      {
+        "ciudad": "Riohacha",
+        "temperatura": 33,
+        "sensacion_termica": 36,
+        "estado_cielo": "Soleado",
+        "humedad": 60,
+        "viento_kmh": 15
+      }
+    ]
+  }
+  

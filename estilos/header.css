@@ -7,8 +7,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 25px 500px;
-    background-color: white;
-    border-top: 5px solid #007bff; /* Línea azul superior */
+    background-color: rgb(236, 235, 245);
 }
 
 .nav-left, .nav-right {
