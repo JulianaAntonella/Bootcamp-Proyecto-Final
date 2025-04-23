@@ -10,7 +10,7 @@ const imagenesCiudades = {
   "pereira": "../img/Pereira.jpg",
   "riohacha": "../img/Riohacha.jpg",
   "san andres": "../img/San-Andres.jpg",
-  "huila": "../img/Huila.jpg"
+  "neiva": "../img/Neiva.jpg"
 };
 
 const fondosClima = {
@@ -74,13 +74,13 @@ document.getElementById("buscar").addEventListener("click", () => {
         `;
       } else {
         // Fondo por defecto
-        document.body.style.background = `url('gifs/default.gif') no-repeat center center fixed`;
+        document.body.style.background = `url('../img/default-no resultados.gif') no-repeat center center fixed`;
         document.body.style.backgroundSize = "cover";
 
         tituloPrincipal.classList.remove("texto-claro", "texto-oscuro");
         tituloPrincipal.classList.add("texto-claro");
 
-        contenedor.innerHTML = `<p>No se encontró información para esa ciudad.</p>`;
+        contenedor.innerHTML = `<p class="error-clima">No se encontró información para esa ciudad.</p>`;
       }
     })
     .catch(error => {
