@@ -7,6 +7,7 @@
     <title>Vuela</title>
     <link rel="stylesheet" href="estilos/reset.css">
     <link rel="stylesheet" href="estilos/header.css">
+    <link rel="stylesheet" href="estilos/buscador.css">
 
 </head>
 
@@ -32,25 +33,61 @@
     </header>
     
     <main>
-        <div><!--div del buscador-->
-            <label for="origen">Origen:</label>
-            <select id="origen">
-                <option value="">Cargando origenes</option>
-            </select>
-
-            <label for="destino">Destino:</label>
-            <select id="destino"></select>
+    
+    <div class="imagenbackground">
+        <h1 id="tituloBuscador">BUSCA TU PROXIMO VUELO</h1>
+    
+        
+        <div class="Buscador"><!--div del buscador-->
             
-            <label for="fecha">Fecha:</label>
-            <input type="date" id="fecha"/>
+                <div class="campo">
+                    <label class="Ciudades" for="origen">Origen</label>
+                    <select id="origen">
+                        <option value="">Elige un origen</option>
+                    </select>
+                </div>
 
-            <button id="buscarBtn">Buscar vuelos</button>
+                <div class="separador"></div>
+
+            
+
+
+            
+                <div class="campo">
+                    <label class= "Ciudades" for="destino">Destino</label>
+                    <select id="destino">
+                        <option value="">Elige un Destino</option>
+                    </select>
+                </div>
+
+                <div class="separador"></div>
+            
+
+            
+
+                <div class="campo">
+                    <label for="fecha">Fecha</label>
+                    <input type="date" id="fecha"/>
+                </div>
+
+                <div class="separador"></div>
+            
+
+            <div class="campo-boton">
+            <button id="buscarBtn">Buscar Vuelos</button>
+            </div>
+
+        </div>
+    </div>
+
+    <h1 id="tituloResultados"></h1>
+    <h2 id="subtituloResultados"></h2>
+
+    
+        <div id="resultados" class="contenedorResultados"> <!--div padre que adentro va resultado de vuelos e imagenes-->
         </div>
 
-        <div id="resultados"> <!--div padre que adentro va resultado de vuelos e imagenes-->
-           
-
-        </div>
+    
 
 
 
