@@ -43,8 +43,12 @@ function actualizarDestino() {
         let destino = document.getElementById("destino").value;
         let fecha = document.getElementById("fecha").value;
         let resultadosDiv = document.getElementById("resultados");
+        let tituloResultados = document.getElementById("tituloResultados");
+        let subtituloResultados = document.getElementById("subtituloResultados");
       
         resultadosDiv.innerHTML = "";
+        tituloResultados.textContent = "";
+        subtituloResultados.textContent = "";
       
         // Leer los datos del archivo vuelos.json
         fetch("../json/vuelos.json")
@@ -57,35 +61,56 @@ function actualizarDestino() {
             );
 
             resultados.sort((a, b) => a.hora.localeCompare(b.hora));
-      
+
             if (resultados.length === 0) {
-              resultadosDiv.innerHTML = "<p>No hay vuelos disponibles para esa ruta y fecha.</p>";
+              tituloResultados.textContent = "UPS... Lo Sentimos";
+              subtituloResultados.textContent = `No hemos encontrado vuelos de ${origen} a ${destino} para el ${fecha}`;
             } else {
+              tituloResultados.textContent = "HEMOS ENCONTRADO LOS SIGUIENTES VUELOS... ¡A VOLAR!";
+              subtituloResultados.textContent = `Estos son los vuelos encontrados de ${origen} a ${destino} en la fecha seleccionada.`;
+              let encabezadoHTML = `
+              <div class="resultado-header">
+              <div>Fecha</div>
+              <div>Origen</div>
+              <div>Destino</div>
+              <div>Hora de Salida</div>
+              <div>Precio</div>
+              </div>
+              `;
+resultadosDiv.innerHTML += encabezadoHTML;
+      
+          
               for (let i = 0; i < resultados.length; i++) {
                 let vuelo = resultados[i];
                 let resultadoHTML = `
-                  <div>
-                    <p><strong>Salida:</strong> ${vuelo.origen}</p>
-                    <p><strong>Llegada:</strong> ${vuelo.destino}</p>
-                    <p><strong>Fecha:</strong> ${vuelo.fecha}</p>
-                    <p><strong>Hora:</strong> ${vuelo.hora}</p>
-                    <p><strong>Precio:</strong> $${vuelo.precio.toLocaleString()}</p>
+                  <div class="resultado-vuelo">
+                  <div>${vuelo.fecha}</div>
+                  <div>${vuelo.origen}</div>
+                  <div>${vuelo.destino}</div>
+                  <div>${vuelo.hora}</div>
+                  <div>$${vuelo.precio.toLocaleString()}</div>
                   </div>
-                  <hr/>
-                `;
+`;
                 resultadosDiv.innerHTML += resultadoHTML;
               }
 
+              let tituloImagenes = document.createElement("h2");
+              tituloImagenes.textContent = `!Disfruta de ${destino}!`;
+              tituloImagenes.className = "tituloImagenes"; 
+              resultadosDiv.appendChild(tituloImagenes);
+
+              let contenedorImagenes = document.createElement("div");
+                  contenedorImagenes.className = "imagenesBuscador";
                 for (let i = 1; i <= 3; i++) {
                 let img = document.createElement("img");
                 img.src = `../img/${destino}${i}.jpg`;
                 img.alt = `Imagen de ${destino}`;
-                img.style.width = "300px";
-                img.style.margin = "10px";
-                resultadosDiv.appendChild(img);
-                }
+                contenedorImagenes.appendChild(img);
+                
    
             }
+            resultadosDiv.appendChild(contenedorImagenes);
+          }
           })
           .catch(error => {
             resultadosDiv.innerHTML = "<p>Error al cargar los vuelos.</p>";
