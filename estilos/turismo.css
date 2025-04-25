@@ -65,25 +65,26 @@ html, body {
 #nombreCiudad h2 {
   font-size: 20px;
   font-weight: bold;
-  color: #353535;
-  margin-bottom: 10px;
-  padding: 0px 100px;
+   margin-bottom: 20px;
+  padding: 0px 530px;
+  margin-top: 0px;
+  color: #007bff;
 }
 
 #descripcionCiudad{
   font-size: 15px;
   color: black;
   font-family: Arial, sans-serif;
-  padding: 0px 100px;
+  padding: 0px 530px;
 }
 
 .titulo-sitios {
   font-size: 18px;
   color: #007bff;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 10px;
   font-weight: bold;
-  padding: 0px 100px;
+  padding: 0px 530px;
 }
 
 /* Estilo para cada sitio turístico */
@@ -91,7 +92,14 @@ html, body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 0px 100px;
+  background: #ffffff;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 8px 4px 8px rgba(1, 0, 0, 0.1);
+  background-color: white;
 }
 
 /* Título del sitio */
