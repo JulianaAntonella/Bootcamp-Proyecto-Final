@@ -15,6 +15,11 @@ function actualizarDestino() {
     let destinoSelect = document.getElementById('destino');
   
     destinoSelect.innerHTML = "";
+
+    let optionInicial = document.createElement('option');
+    optionInicial.value = "";
+    optionInicial.textContent = "Elige un destino";
+    destinoSelect.appendChild(optionInicial);
   
     for (let i = 0; i < arrayCiudades.length; i++) {
         let ciudad = arrayCiudades[i];
