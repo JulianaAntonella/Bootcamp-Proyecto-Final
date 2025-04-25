@@ -33,7 +33,7 @@ main{
     border: 1px solid black;
     flex-wrap: wrap;
     align-items: stretch;
-    margin-bottom: 60px;
+    margin-bottom: 55px;
     
 }
 
@@ -113,7 +113,7 @@ main{
     border-radius: 20px;
     width: 100%;
     opacity: 80%;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .campo-boton {
