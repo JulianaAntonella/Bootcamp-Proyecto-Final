@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vuela</title>
     <link rel="stylesheet" href="../estilos/reset.css">
     <link rel="stylesheet" href="../estilos/header.css">
     <link rel="stylesheet" href="../estilos/turismo.css">
-
+    <title>Document</title>
 </head>
 
 <body>
@@ -27,20 +26,20 @@
 
         <div class="nav-right">
             <a href="#">ESTADISTICAS VUELOS</a>
-            
+
         </div>
-
     </header>
-
     <img id="imagenPrincipal" src="../img/colombia-latinoamerica.jpg" alt="Sitio turístico principal">
 
     <!-- Selector para elegir la ciudad y titulo-->
-    <div class="encabezado">
-        <h1>SITIOS TURISTICOS DE COLOMBIA</h1>
-        <select id="selectCiudad">
-            <option value="">Selecciona una ciudad</option>
-        </select>
-    </div>
+    <section class="flex">
+        <div class="encabezado">
+            <h1>SITIOS TURISTICOS DE COLOMBIA</h1>
+            <select id="selectCiudad">
+                <option value="">Selecciona una ciudad</option>
+            </select>
+        </div>
+    </section>
 
     <div id="imagenesBienvenida">
         <img src="../img/Bogota1.jpg" alt="Bogota1">
@@ -52,12 +51,12 @@
         <img src="../img/Guajira.jpg" alt="Guajira">
         <img src="../img/Guatape.jpg" alt="Guatape">
     </div>
-
-    <div id="nombreCiudad"></div>
-    <p id="descripcionCiudad"></p>
-
-    <div id="sitiosTuristicos"></div>
-
+    <section class="flex flex-direction">
+        <div id="nombreCiudad"></div>
+        <p id="descripcionCiudad"></p>
+        <div id="sitiosTuristicos"></div>
+    </section>
     <script src="../js/turismo.js"></script>
-
 </body>
+
+</html>
