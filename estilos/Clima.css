@@ -6,19 +6,34 @@ h1 {
     color: #444;
 }
 
+.imagen-fondo:not(:empty) {
+  width: 100%;
+  height: 250px; /* o la altura que desees */
+  overflow: hidden;
+}
+
+.imagen-fondo img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 30px;
+}
+
 .select-ciudad {
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid rgba(255,255,255,0.5);
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.5); 
     border-radius: 8px;
-    background-color: #7d80a5; /* fondo semi-transparente */
-    color: #fff;
+    color: #050505;
     outline: none;
     width: 100%;
     max-width: 300px;
     margin-bottom: 1rem;
     backdrop-filter: blur(4px);
     box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .select-ciudad option {
@@ -45,6 +60,7 @@ button#buscar {
     transition: background-color 0.3s ease;
     margin: 20px auto;
     display: block;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 button#buscar:hover {
@@ -104,7 +120,8 @@ button#buscar:hover {
     padding: 0;
     padding-top: 30px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   body::before {
@@ -136,6 +153,7 @@ button#buscar:hover {
     border-radius: 5px;
     text-align: center;
   }
+
   
   
   
