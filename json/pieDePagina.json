@@ -1,0 +1,12 @@
+{
+    "Armenia": ["Centro de Armenia", "Salento", "Paisaje cafetero"],
+    "Barranquilla": ["Monumento ventana al mundo", "Malecon", "Carnaval de Barranquilla"],
+    "Bogota": ["Usaquen", "Plaza de toros de Bogota", "Vista desde Monserrate"],
+    "Cali": ["Iglesia la Ermita", "Vista de la ciudad desde el cerro", "Vista aerea de la ciudad"],
+    "Cartagena": ["Centro histórico", "Vista de la ciudad", "Torre del reloj"],
+    "Manizales": ["Vista de la ciudad", "Nevado del Ruiz", "Torre del cable"],
+    "Medellin": ["Metro de Medellin", "Guatape", "Comuna 13"],
+    "Neiva": ["Centro de la ciudad", "Desierto de la Tatacoa", "Rio Magdalena"],
+    "Popayan": ["Parque de Popayan", "Centro historico de Popayan", "Vista aerea de popayan"],
+    "San Andres": ["Playa de San Andres", "Mar en San Andres", "Camino al sol"]
+}
