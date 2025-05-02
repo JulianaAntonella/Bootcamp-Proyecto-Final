@@ -25,14 +25,6 @@
         "viento_kmh": 14
       },
       {
-        "ciudad": "San Andrés",
-        "temperatura": 30,
-        "sensacion_termica": 34,
-        "estado_cielo": "Lluvia ligera",
-        "humedad": 80,
-        "viento_kmh": 18
-      },
-      {
         "ciudad": "Armenia",
         "temperatura": 22,
         "sensacion_termica": 21,

@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="../estilos/Clima.css">
   <link rel="stylesheet" href="../estilos/reset.css">
   <link rel="stylesheet" href="../estilos/footer.css">
-
 </head>
 <body>
   <header class="header">
@@ -19,47 +18,64 @@
         <a href="../html/turismo.html">TURISMO</a>
     </div>
 
-    <div class="logo">
-        <span class="logo-content">
-            VUELA ALTO
-            <span class="dot"></span>
-        </span>
-    </div>
+    <div class="logo">      
+      <img src="../img/Icono header.jpeg" alt="icono" class="icono-logo">
+</div>
 
     <div class="nav-right">
         <a href="#">ESTADISTICAS VUELOS</a>
-        
     </div>
+  </header>
 
-</header>
+  <div id="imagen-hero" class="imagen-fondo"></div>
 
-
-<div id="imagen-hero" class="imagen-fondo">
-</div>
   <h1 id="bodyClima">Entérate sobre el clima en tu ciudad o tu destino</h1>
+  
   <div class="contenedor-select">
-  <select id="ciudad" class="select-ciudad">
-    <option value="">Selecciona una ciudad</option>
-    <option value="Pereira">Pereira</option>
-    <option value="Manizales">Manizales</option>
-    <option value="Medellín">Medellín</option>
-    <option value="Cartagena">Cartagena</option>
-    <option value="San Andrés">San Andrés</option>
-    <option value="Armenia">Armenia</option>
-    <option value="Cali">Cali</option>
-    <option value="Bogotá">Bogotá</option>
-    <option value="Barranquilla">Barranquilla</option>
-    <option value="Neiva">Neiva</option>
-    <option value="Amazonas">Amazonas</option>
-    <option value="Riohacha">Riohacha</option>
-  </select>
-</div>
+    <select id="ciudad" class="select-ciudad">
+      <option value="">Selecciona una ciudad</option>
+      <option value="Pereira">Pereira</option>
+      <option value="Manizales">Manizales</option>
+      <option value="Medellín">Medellín</option>
+      <option value="Cartagena">Cartagena</option>
+      <option value="Armenia">Armenia</option>
+      <option value="Cali">Cali</option>
+      <option value="Bogotá">Bogotá</option>
+      <option value="Barranquilla">Barranquilla</option>
+      <option value="Neiva">Neiva</option>
+      <option value="Amazonas">Amazonas</option>
+      <option value="Riohacha">Riohacha</option>
+    </select>
+  </div>
+
   <button id="buscar">Buscar</button>
   
-  <div id="clima"></div>
+  <div id="clima">
+    <p>Por favor, selecciona una ciudad para ver el reporte del clima.</p>
+  </div>
   <div id="resultados"></div>
+  
+  <h2 id="tituloCiudadSeleccionada" style="text-align: center; margin-top: 2rem;"></h2>
+  <!-- SECCIÓN MEJORADA -->
+  <div id="contenedorRecomendaciones" class="section-info">
+    <h2 id="tituloCiudadSeleccionada" style="text-align: center; margin-top: 2rem;"></h2>
+  
+    <div id="alojamientosContainer" class="card-list">
+      <h3>Alojamientos</h3>
+      <!-- Aquí el JS insertará las tarjetas de alojamientos -->
+    </div>
+  
+    <div id="restaurantesContainer" class="card-list">
+      <h3>Restaurantes</h3>
+      <!-- Aquí el JS insertará las tarjetas de restaurantes -->
+    </div>
+  </div>
+  
+  
+  <!-- FIN DE LA SECCIÓN -->
 
   <script src="../js/clima.js"></script>
+
   <footer>
     <section id="sectionFooter">
         <div class="columna-logo-redes">
