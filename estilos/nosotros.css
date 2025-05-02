@@ -1,0 +1,116 @@
+#sectionUno{
+    background-image: url('../imagen/death-valley-4275549_1920.jpg');
+    background-repeat: no-repeat;/*para que la imagen no se repita*/
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap; /*que respete el ancho de sus hijos, no wrap seria que no lo respete*/
+    justify-content: space-around;
+    margin-top: 10px;
+   
+}
+
+#art1{
+    background: rgb(66, 66, 112, 0.5);
+}
+
+#art2{
+    background: rgb(171, 61, 185, 0.5);
+}
+
+#art3{
+    background: rgb(190, 190, 224, 0.5);
+}
+
+.art{
+    width: 16%;
+    padding: 20px; /*borde dentro del contenedor*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border: 5px solid rgb(111, 81, 112);
+    border-radius: 50px 20px 10px 0; /*cada numero uno de los 4 bordes
+    /*margin-left: 1px;*/
+}
+
+.art img{
+    width: 100%;
+    height: 200px;
+    border-radius: 50%; /*redondear bordes*/
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+
+.art img:hover{ /*al pasar mause la opacidad cambie a uno, transicion suave con 3s ease arriba */
+    opacity: 1;
+}
+
+/*nota. en index se pone comentario con <!-- y se cierra con -->*/
+
+#sectionDos{
+    background: rgb(234, 230, 231);
+    background-size: cover;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 15px;
+    margin-top: 10px;
+}
+#articulo1{
+    background-color: aqua;
+    width: 49%;
+    margin: 10px;
+}
+#articulo1 img{
+    width: 100%;
+    background-size: contain;
+    justify-content: center;
+    
+
+}
+
+#articulo2{
+    width: 49%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3); /*Sombreado del cuadro para texto es text-shadow*/
+}
+#articulo2 p{
+    width: 100%;
+    padding: 5px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 420px){
+    #sectionUno{
+        background-size: contain;
+        display: flex;
+        flex-wrap: wrap; /*que respete el ancho de sus hijos, no wrap seria que no lo respete*/
+        padding-top: 10px;
+        margin-top: 10px;
+        padding-bottom: 30px;
+       
+    }
+    .art{
+        width: 95%;
+        padding: 20px; /*borde dentro del contenedor*/
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        border: 5px solid rgb(111, 81, 112);
+        border-radius: 50px 20px 10px 0; /*cada numero uno de los 4 bordes
+        /*margin-left: 1px;*/
+    }
+    
+}
+
+@media screen and (min-width: 421px) and (max-width: 720px){
+    body{
+        background-color: rgb(77, 58, 19);
+    }
+    
+}
