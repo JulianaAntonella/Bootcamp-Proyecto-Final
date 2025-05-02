@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="../estilos/Clima.css">
   <link rel="stylesheet" href="../estilos/reset.css">
   <link rel="stylesheet" href="../estilos/footer.css">
-
 </head>
 <body>
   <header class="header">
@@ -26,89 +25,101 @@
 
     <div class="nav-right">
         <a href="#">ESTADISTICAS VUELOS</a>
-        
     </div>
+  </header>
 
-</header>
+  <div id="imagen-hero" class="imagen-fondo"></div>
 
-
-<div id="imagen-hero" class="imagen-fondo">
-</div>
   <h1 id="bodyClima">Entérate sobre el clima en tu ciudad o tu destino</h1>
+  
   <div class="contenedor-select">
-  <select id="ciudad" class="select-ciudad">
-    <option value="">Selecciona una ciudad</option>
-    <option value="Pereira">Pereira</option>
-    <option value="Manizales">Manizales</option>
-    <option value="Medellín">Medellín</option>
-    <option value="Cartagena">Cartagena</option>
-    <option value="San Andrés">San Andrés</option>
-    <option value="Armenia">Armenia</option>
-    <option value="Cali">Cali</option>
-    <option value="Bogotá">Bogotá</option>
-    <option value="Barranquilla">Barranquilla</option>
-    <option value="Neiva">Neiva</option>
-    <option value="Amazonas">Amazonas</option>
-    <option value="Riohacha">Riohacha</option>
-  </select>
-</div>
+    <select id="ciudad" class="select-ciudad">
+      <option value="">Selecciona una ciudad</option>
+      <option value="Pereira">Pereira</option>
+      <option value="Manizales">Manizales</option>
+      <option value="Medellín">Medellín</option>
+      <option value="Cartagena">Cartagena</option>
+      <option value="Armenia">Armenia</option>
+      <option value="Cali">Cali</option>
+      <option value="Bogotá">Bogotá</option>
+      <option value="Barranquilla">Barranquilla</option>
+      <option value="Neiva">Neiva</option>
+      <option value="Amazonas">Amazonas</option>
+      <option value="Riohacha">Riohacha</option>
+    </select>
+  </div>
+
   <button id="buscar">Buscar</button>
   
-  <div id="clima"></div>
+  <div id="clima">
+    <p>Por favor, selecciona una ciudad para ver el reporte del clima.</p>
+  </div>
   <div id="resultados"></div>
+  
+  <h2 id="tituloCiudadSeleccionada" style="text-align: center; margin-top: 2rem;"></h2>
+  <!-- SECCIÓN MEJORADA -->
+  <div id="contenedorRecomendaciones" class="section-info">
+    <h2 id="tituloCiudadSeleccionada" style="text-align: center; margin-top: 2rem;"></h2>
+  
+    <div id="alojamientosContainer" class="card-list">
+      <h3>Alojamientos</h3>
+      <!-- Aquí el JS insertará las tarjetas de alojamientos -->
+    </div>
+  
+    <div id="restaurantesContainer" class="card-list">
+      <h3>Restaurantes</h3>
+      <!-- Aquí el JS insertará las tarjetas de restaurantes -->
+    </div>
+  </div>
+  
+  
+  <!-- FIN DE LA SECCIÓN -->
 
   <script src="../js/clima.js"></script>
+
   <footer>
     <section id="sectionFooter">
-        <article class="redes">
+      <article class="redes">
         <a href="https://www.instagram.com" target="_blank">
-        <img src="../img/instagram_azul.png" alt="">
+          <img src="../img/instagram_azul.png" alt="">
         </a>
-        </article>
-
-        <article class="redes">
+      </article>
+      <article class="redes">
         <a href="https://www.facebook.com" target="_blank">
-        <img src="../img/facebook_azul.png" alt="">
+          <img src="../img/facebook_azul.png" alt="">
         </a>
-        </article>
-
-        <article class="redes">
+      </article>
+      <article class="redes">
         <a href="https://www.gmail.com" target="_blank">
-        <img src="../img/mail_azul.png" alt="">
+          <img src="../img/mail_azul.png" alt="">
         </a>
-        </article>
-
-        <article class="redes">
+      </article>
+      <article class="redes">
         <a href="https://www.x.com" target="_blank">
-        <img src="../img/twitter_azul.png" alt="">
+          <img src="../img/twitter_azul.png" alt="">
         </a>
-        </article>
-
-        <article class="redes">
+      </article>
+      <article class="redes">
         <a href="https://www.linkedin.com" target="_blank">
-        <img src="../img/linkedin_azul.png" alt="">
+          <img src="../img/linkedin_azul.png" alt="">
         </a>
-        </article>
-
+      </article>
     </section>
 
     <nav id="navfooter">
-        <ul>
-            <li><a class="afooter" href="https://www.despegar.com.co" target="_blank">Nuestros aliados</a></li>
-            <li><a class="afooter" href="https://www.linkedin.com" target="_blank">Acerca de nosotros</a></li>
-            <li><a class="afooter" href="https://aviacionaldia.com/" target="_blank">Noticias</a></li>
-            <li><a class="afooter" href="https://www.gmail.com" target="_blank">Contactanos</a></li>
-        </ul>
+      <ul>
+        <li><a class="afooter" href="https://www.despegar.com.co" target="_blank">Nuestros aliados</a></li>
+        <li><a class="afooter" href="https://www.linkedin.com" target="_blank">Acerca de nosotros</a></li>
+        <li><a class="afooter" href="https://aviacionaldia.com/" target="_blank">Noticias</a></li>
+        <li><a class="afooter" href="https://www.gmail.com" target="_blank">Contáctanos</a></li>
+      </ul>
     </nav>
+  </footer>
 
-</footer>
-<div>
-    <div id="bottomFooter">
-        <article>
-            <p>COPYRIGHT &copy; 2025; DESIGNED BY GROWTH TEAM</p>
-        </article>
-</div>
-</div>
-
+  <div id="bottomFooter">
+    <article>
+      <p>COPYRIGHT &copy; 2025; DESIGNED BY GROWTH TEAM</p>
+    </article>
+  </div>
 </body>
 </html>
