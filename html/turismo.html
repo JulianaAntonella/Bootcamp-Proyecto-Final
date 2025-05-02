@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilos/reset.css">
+    <link rel="stylesheet" href="../estilos/stickyFooter.css">
     <link rel="stylesheet" href="../estilos/header.css">
     <link rel="stylesheet" href="../estilos/turismo.css">
     <link rel="stylesheet" href="../estilos/footer.css">
@@ -61,48 +62,84 @@
 
     <footer>
         <section id="sectionFooter">
-            <article class="redes">
+            <div class="columna-logo-redes">
+              <img src="../img/VuelaFondoNegro.png" alt="Logo Vuela" class="footer-logo">
+              <h2 class="tituloFooter">SIGUENOS</h2>
+          
+              <div class="redes-contenedor">
                 <a href="https://www.instagram.com" target="_blank">
-                    <img src="../img/instagram_azul.png" alt="">
+                  <img src="../img/instagram_azul.png" alt="Instagram">
                 </a>
-            </article>
-
-            <article class="redes">
                 <a href="https://www.facebook.com" target="_blank">
-                    <img src="../img/facebook_azul.png" alt="">
+                  <img src="../img/facebook_azul.png" alt="Facebook">
                 </a>
-            </article>
-
-            <article class="redes">
-                <a href="https://www.gmail.com" target="_blank">
-                    <img src="../img/mail_azul.png" alt="">
-                </a>
-            </article>
-
-            <article class="redes">
                 <a href="https://www.x.com" target="_blank">
-                    <img src="../img/twitter_azul.png" alt="">
+                  <img src="../img/twitter_azul.png" alt="Twitter">
                 </a>
-            </article>
-
-            <article class="redes">
                 <a href="https://www.linkedin.com" target="_blank">
-                    <img src="../img/linkedin_azul.png" alt="">
+                  <img src="../img/linkedin_azul.png" alt="LinkedIn">
                 </a>
+              </div>
+            </div>
+          
+            <nav id="navfooter">
+                <h2 class="tituloFooter">MENÚ</h2>
+                <ul class="menu-footer">
+                    <li><a class="afooter" href="https://www.linkedin.com" target="_blank">Acerca de nosotros</a></li>
+                    <li><a class="afooter" href="https://www.despegar.com.co" target="_blank">Nuestros aliados</a></li>
+                    <li><a class="afooter" href="https://aviacionaldia.com/" target="_blank">Noticias</a></li>
+                    <li><a class="afooter" href="https://linkedin.com" target="_blank">Trabaja con nosotros</a></li>
+                    <li><a class="afooter" href="https://www.gmail.com" target="_blank">Contáctanos</a></li>
+                </ul>
+              </nav>
+
+              <nav id="navfooter">
+                <h2 class="tituloFooter">UBICACIONES</h2>
+                <ul class="menu-footer">
+                    <li><a class="afooter" href="" target="_blank">Manizales</a></li>
+                    <li><a class="afooter" href="" target="_blank">Bogota</a></li>
+                    <li><a class="afooter" href="" target="_blank">Cali</a></li>
+                    <li><a class="afooter" href="" target="_blank">Medellin</a></li>
+                </ul>
+              </nav>
+            
+              <div class="columna-contacto">
+                <h2 class="tituloFooter"></h2>
+                <div class="contacto-item">
+                    <img src="../img/ubicacion.png" alt="Ubicación" class="icono-contacto">
+                    <span>Avenida Santander. <br>
+                      Edificio Capitalia, Piso 7 <br>
+                      Manizales, Colombia
+                  </span>
+                  </div>
+                  <div class="contacto-item">
+                    <img src="../img/telefono.png" alt="Teléfono" class="icono-contacto">
+                    <span>+57 (321) 123 4567</span>
+                  </div>
+                
+                <div class="contacto-item">
+                  <img src="../img/mail_azul.png" alt="Correo" class="icono-contacto">
+                  <span>serviciovuela@vuela.com</span>
+                </div>
+                
+                
+              </div>
+
+              <div class="columna-queja">
+
+                <div class="recuadro-queja">
+                  <p class="texto-queja">¿Tienes alguna queja?<br>Contáctanos a través de nuestro canal.</p>
+                  <button class="boton-queja">Te escuchamos</button>
+                </div>
+              </div>
+
+          </section>
+          <div id="bottomFooter">
+            <article>
+                <p>Copyright &copy; 2025; Designed by Vuela Team</p>
             </article>
-
-        </section>
-
-        <nav id="navfooter">
-            <ul id="ulfooter">
-                <li><a class="afooter" href="https://www.despegar.com.co" target="_blank">Nuestros aliados</a></li>
-                <li><a class="afooter" href="https://www.linkedin.com" target="_blank">Acerca de nosotros</a></li>
-                <li><a class="afooter" href="https://aviacionaldia.com/" target="_blank">Noticias</a></li>
-                <li><a class="afooter" href="https://www.gmail.com" target="_blank">Contactanos</a></li>
-            </ul>
-        </nav>
-
-    </footer>
+    </div>
+      </footer>
 
 </body>
 
