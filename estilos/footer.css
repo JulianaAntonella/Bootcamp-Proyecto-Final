@@ -1,61 +1,144 @@
-footer{
-    background-color: black ;
+footer {
+    background-color: black;
     padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 97%;
-    align-content: center;
-    flex-direction: column;
-}
-
-#sectionFooter{
-    display: flex;
-    justify-content: center;
-    gap:10px;
-    margin-bottom: 18px;
-
-}
-
-#sectionTres{
-    display: flex;
-    justify-content: center;
-    border-radius: 20px;
-    padding: 5px;
     width: 100%;
 }
 
-.redes img{
-    margin: 5px;
-    width: 50px;
-    height: 50px;
+#sectionFooter {
+    display: flex;
+    justify-content: flex-start; /* para que todo quede alineado a la izquierda */
+    flex-wrap: wrap;
+    gap: 60px; /* más espacio entre columnas */
+    align-items: flex-start;
+    padding-left: 40px; /* espacio desde el borde */
+  }
+
+.columna-logo-redes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    width: 180px;
+    height: auto;
+    object-fit: contain;
+}
+
+.redes-contenedor {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.redes-contenedor img {
+    width: 40px;
+    height: 40px;
 }
 
 #navfooter {
     display: flex;
-    background: 0;
-    margin-bottom: 20px;
-}
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+  }
 
-.afooter{
-    text-decoration: none; /*quita el subrayado a los links*/
-    color: #fff;
+  .afooter {
+    text-decoration: none;
+    color: white;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    margin-left: 10px;
-}
+  }
 
-li{
-    display: inline; /*ubica la lista como linea y elimina las viñetas al no ser listas*/
-}
-
-#bottomFooter{
+#bottomFooter {
     background-color: black;
     padding: 8px;
     color: azure;
     font-family: Arial, Helvetica, sans-serif;
-    display:flex;
+    display: flex;
     justify-content: center;
     font-size: 13px;
 }
+
+.tituloFooter{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.menu-footer {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #3399ff; /* color azul para bullets */
+  }
+
+  .menu-footer li::marker {
+    color: #3399ff;
+  }
+
+  li{
+    margin-bottom: 10px;
+  }
+
+  .columna-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    gap: 10px;
+    max-width: 250px;
+  }
+  
+  /* Cada fila de icono + texto */
+  .contacto-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Íconos pequeños */
+  .icono-contacto {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+
+  .columna-queja {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .recuadro-queja {
+    border: 2px solid #3399ff; /* borde azul */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    max-width: 250px;
+    margin-top: 35px;
+  }
+  
+  .texto-queja {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .boton-queja {
+    background-color: #3399ff;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
