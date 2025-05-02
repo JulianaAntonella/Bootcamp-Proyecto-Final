@@ -7,7 +7,7 @@ h1 {
 
 .imagen-fondo:not(:empty) {
   width: 100%;
-  height: 250px; /* o la altura que desees */
+  height: 250px;
   overflow: hidden;
 }
 
@@ -75,7 +75,7 @@ button#buscar:hover {
     max-width: 900px;
     margin-left: auto;
     margin-right:auto;
-    color: #2c3e50;;
+    color: black;
     font-size: 18px;
     background-color: rgb(159, 184, 238);
   
@@ -97,7 +97,7 @@ button#buscar:hover {
   }
   
   .imagen-ciudad {
-    width: 400px;
+    width: 300px;
     height: 300px;
     border-radius: 10px;
     margin-right: 50px;
@@ -112,14 +112,11 @@ button#buscar:hover {
   }
   #bodyClima {
     position: relative;
-    z-index: 0;
-    margin: 0;
-    padding: 0;
     padding-top: 30px;
     font-weight: bold;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #2c3e50;
+    color: black;
   }
   
   .texto-claro {
@@ -143,7 +140,7 @@ button#buscar:hover {
     font-size: 25px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    color: #2c3e50;
+    color: black;
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -155,11 +152,9 @@ button#buscar:hover {
 .section-info {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
   padding: 2rem;
   justify-content: center;
-  background-color: #f9f9f9;
-  border-top: 1px solid #ccc;
+  background-color: white;
   margin-top: 2rem;
 }
 
@@ -227,12 +222,11 @@ button#buscar:hover {
   transform: translateY(-5px);
 }
 
-/* Estilos para el contenedor de la imagen y el título de reserva */
 .card-horizontal .card-imagen {
-  width: 50%; /* O el ancho que desees para la sección de la imagen */
+  width: 50%; 
   display: flex;
-  flex-direction: column; /* Apila la imagen y el título verticalmente */
-  align-items: flex-start; /* Alinea los elementos a la izquierda (puedes cambiarlo) */
+  flex-direction: column; 
+  align-items: flex-start; 
 }
 
 .card-horizontal .card-imagen img {
@@ -240,16 +234,16 @@ button#buscar:hover {
   height: auto;
   border-radius: 12px;
   object-fit: cover;
-  margin-bottom: 0.5rem; /* Espacio entre la imagen y el título */
+  margin-bottom: 0.5rem; 
 }
 
 .card-horizontal .card-imagen h5.reserva-titulo {
-  font-size: 18px; /* Ajusta el tamaño de la fuente si es necesario */
+  font-size: 18px;
   color: black;
   margin-bottom: 0.5rem;
   font-weight: 600;
-  margin-right: 0; /* Elimina el margen que empujaba el título a la derecha */
-  text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+  margin-right: 0;
+  text-align: left; 
 }
 
 .card-horizontal .card-texto {
@@ -281,35 +275,35 @@ button#buscar:hover {
 .card-horizontal .card-imagen .lista-enlaces {
   list-style: none;
   padding: 0;
-  margin-top: 5px; /* Un poco de espacio debajo del título */
+  margin-top: 5px; 
   display: flex;
-  flex-wrap: wrap; /* Permite que los botones pasen a la siguiente línea si no hay suficiente espacio */
-  gap: 8px; /* Espacio entre los botones */
+  flex-wrap: wrap; 
+  gap: 8px; 
   width: 100%;
-  justify-content: flex-start; /* Alinea los botones a la izquierda */
+  justify-content: flex-start; 
 }
 
 .card-horizontal .card-imagen .lista-enlaces li {
-  margin-bottom: 0; /* Elimina el margen inferior de los items de la lista */
+  margin-bottom: 0;
 }
 
 .card-horizontal .card-imagen .lista-enlaces a {
-  display: inline-block; /* Para que los botones se comporten como bloques en línea */
-  padding: 6px 12px; /* Relleno vertical y horizontal */
-  background-color: #f0f0f0; /* Un color de fondo claro para las etiquetas */
-  color: #333; /* Color de texto oscuro */
+  display: inline-block; 
+  padding: 6px 12px; 
+  background-color: #f0f0f0;
+  color: #333; 
   text-decoration: none;
-  border-radius: 20px; /* Bordes redondeados para el efecto de etiqueta */
-  font-size: 14px; /* Tamaño de fuente más pequeño (opcional) */
+  border-radius: 20px; 
+  font-size: 14px; 
   transition: background-color 0.3s ease, color 0.3s ease;
-  border: 1px solid #ccc; /* Borde sutil (opcional) */
-  margin-bottom: 5px; /* Espacio entre filas de botones si se envuelven */
+  border: 1px solid #ccc; 
+  margin-bottom: 5px; 
 }
 
 .card-horizontal .card-imagen .lista-enlaces a:hover {
-  background-color: #e0e0e0; /* Un tono ligeramente más oscuro al pasar el ratón */
-  color: #007bff; /* Cambia el color del texto al pasar el ratón (opcional) */
-  border-color: #007bff; /* Cambia el color del borde al pasar el ratón (opcional) */
+  background-color: #e0e0e0; 
+  color: #007bff;
+  border-color: #007bff; 
 }
 .card-horizontal .card-texto .lista-precios li strong {
   font-weight: bold;
@@ -322,9 +316,8 @@ button#buscar:hover {
 
 
 #contenedorRecomendaciones {
-  display: none; /* Oculta el contenedor por defecto */
-  /* Otros estilos que ya tengas para este contenedor */
-  margin-top: 2rem; /* Ejemplo */
+  display: none; 
+  margin-top: 2rem;
 }
 
 
