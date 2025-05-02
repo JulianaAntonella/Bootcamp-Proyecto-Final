@@ -41,7 +41,7 @@ footer{
     text-decoration: none; /*quita el subrayado a los links*/
     color: #fff;
     font-size: 13px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-left: 10px;
 }
