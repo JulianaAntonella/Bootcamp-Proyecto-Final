@@ -31,19 +31,18 @@
   .logo-content {
     position: relative;
     display: inline-block;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: bold;
-  }
+    color:#007bff;
+    font-family: none;
+ }
   
-  .dot {
-    width: 7px;
-    height: 7px;
-    background-color: #007bff;
-    border-radius: 50%;
-    position: absolute;
-    top: -5px;
-    right: -20px;
-  }
+  .icono-logo {
+    width: 40px;  
+    height: 40px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
 
 @media (max-width: 768px) {
     .header {

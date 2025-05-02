@@ -65,7 +65,7 @@ html, body {
 #nombreCiudad h2 {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin: 20px 25%;
   color: #007bff;
 }
 
@@ -73,6 +73,11 @@ html, body {
   font-size: 15px;
   color: black;
   font-family: Arial, sans-serif;
+  margin: 0 25%;
+}
+
+#sitiosTuristicos{
+  margin: 0 25%;
 }
 
 .titulo-sitios {
@@ -91,9 +96,9 @@ html, body {
   background: #ffffff;
   margin: 20px auto;
   padding: 20px;
-  border: 2px solid #ccc;
+  border: 2px solid #0a0a0a;
   border-radius: 10px;
-  box-shadow: 8px 4px 8px rgba(1, 0, 0, 0.1);
+  box-shadow: 0 0 340px rgba(0, 123, 255, 0.4);
   background-color: white;
 }
 
@@ -116,7 +121,7 @@ html, body {
 .imagen-sitio {
   width: 100%;           
   max-width: 400px;      
-  height: 200px;         
+  height: 300px;         
   object-fit: cover;     
   border-radius: 8px;  
   display: block;
@@ -124,9 +129,6 @@ html, body {
   margin-bottom: 20px;
 } 
   
-
-
-/*barbaridades de jerel*/
 .flex {
   display: flex;
   justify-content: center;
@@ -136,7 +138,5 @@ html, body {
 
 .flex-direction{
   flex-direction: column;
-  max-width: 60%;
-  padding-left: 20%;
 }
 
