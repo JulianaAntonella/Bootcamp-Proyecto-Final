@@ -20,7 +20,7 @@
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .logo {
@@ -29,12 +29,12 @@
   }
   
   .icono-logo {
-    max-height: 100px; 
-    width: auto;      
+    max-height: 120px; 
+    width: 180;      
     display: block;
     margin: 0 auto;
-    width: 130px;  
-    height: 130px;
+    width: 170px;  
+    height: auto;
     margin-left: 5px;
 }
 
