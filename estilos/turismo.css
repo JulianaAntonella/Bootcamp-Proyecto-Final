@@ -45,7 +45,7 @@ html, body {
   margin: 0 auto;
   box-sizing: border-box;
   margin-top: 10px;
-  box-shadow: 0 0 80px rgba(0, 123, 255, 0.4)
+  box-shadow: 0 0 80px rgba(0, 123, 255, 0.4);
 }
 
 #imagenesBienvenida img {
