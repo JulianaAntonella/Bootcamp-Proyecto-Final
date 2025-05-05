@@ -1,5 +1,4 @@
 #sectionUno{
-    background-color: #3399ff;
     background-size: cover;
     display: flex;
     flex-wrap: wrap; /*que respete el ancho de sus hijos, no wrap seria que no lo respete*/
@@ -16,10 +15,11 @@
     margin-bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    border: 5px solid black;
+    border: 2px solid black;
     border-radius: 50px 20px 10px 0; /*cada numero uno de los 4 bordes
     /*margin-left: 1px;*/
     background: white;
+    box-shadow: 0 0 340px rgba(0, 123, 255, 0.4);
 }
 
 .art img{
@@ -29,7 +29,6 @@
 }
 
 #sectionDos, #sectionTres {
-    background: #3399FF;
     display: flex;
     flex-wrap: nowrap; /* para que no se apilen si hay espacio */
     justify-content: space-between;
@@ -48,6 +47,7 @@
     justify-content: center;
     border-radius: 15px;
     overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 123, 255, 0.4);
 }
 
 #articulo1 img {
@@ -65,7 +65,7 @@
     flex-direction: column;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 30px rgba(0, 123, 255, 0.4);
 }
 
 #articulo2 h1 {
@@ -102,9 +102,9 @@
     margin-top: 20px;
     margin-bottom: 30px;
     padding: 20px;
-    border: 5px solid #3399ff;
     border-radius: 20px;
     font-size: 18px;
+    box-shadow: 0 0 80px rgba(0, 123, 255, 0.4);
 }
 
 .nombres{
