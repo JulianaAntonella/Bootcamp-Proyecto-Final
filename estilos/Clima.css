@@ -223,7 +223,7 @@ button#buscar:hover {
   border-radius: 12px;
   object-fit: cover;
   margin-bottom: 0.5rem;
-  height: 240px;
+  height: 400px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
