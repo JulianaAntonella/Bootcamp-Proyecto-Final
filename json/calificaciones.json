@@ -12,9 +12,57 @@
         "calificacion": "4"
     },
     {
-        "ciudadFavorita": "barranquilla",
-        "tipo_viaje": "aventura_naturaleza",
-        "comentarios": "Un lugar muy lindo",
+        "ciudadFavorita": "bogota",
+        "tipo_viaje": "cultura_historia",
+        "comentarios": "test",
         "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "cali",
+        "tipo_viaje": "negocios_eventos",
+        "comentarios": "test",
+        "calificacion": "2"
+    },
+    {
+        "ciudadFavorita": "cartagena",
+        "tipo_viaje": "escapada_urbana",
+        "comentarios": "test",
+        "calificacion": "1"
+    },
+    {
+        "ciudadFavorita": "manizales",
+        "tipo_viaje": "viaje_familiar",
+        "comentarios": "test",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "medellin",
+        "tipo_viaje": "escapada_urbana",
+        "comentarios": "test",
+        "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "neiva",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "test",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "popayan",
+        "tipo_viaje": "cultura_historia",
+        "comentarios": "test",
+        "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "san andres",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "test",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "armenia",
+        "tipo_viaje": "viaje_familiar",
+        "comentarios": "test",
+        "calificacion": "3"
     }
 ]
