@@ -10,5 +10,11 @@
         "tipo_viaje": "aventura_naturaleza",
         "comentarios": "test2",
         "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "barranquilla",
+        "tipo_viaje": "aventura_naturaleza",
+        "comentarios": "Un lugar muy lindo",
+        "calificacion": "5"
     }
 ]
