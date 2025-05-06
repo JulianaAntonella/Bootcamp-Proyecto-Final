@@ -54,7 +54,7 @@ button#buscar {
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin: 20px auto;
+    margin: 20px auto auto;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
 }
