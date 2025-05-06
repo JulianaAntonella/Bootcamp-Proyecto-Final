@@ -71,18 +71,18 @@ button[type="submit"]:hover {
     align-items: center;
     width: 80%;
     max-width: 1200px;
-    margin: 20px auto;
+    margin: auto auto;
     padding: 20px;
 }
 
 .formulario-contenedor form {
     flex-grow: 1;
-    margin-left: 40px; /* Añade margen a la derecha del formulario para separarlo de la imagen */
-    /* Otros estilos del formulario */
+    margin-left: 40px; 
+    box-shadow: 0 0 100px rgba(0, 123, 255, 0.4);
 }
 
 .formulario-contenedor img {
     max-width: 40%;
     height: auto;
-    /* Puedes eliminar el margin-right de aquí si ya lo aplicaste al formulario */
+    box-shadow: 0 0 100px rgba(0, 123, 255, 0.4);
 }
