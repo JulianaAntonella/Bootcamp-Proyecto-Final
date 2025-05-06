@@ -67,7 +67,7 @@ button#buscar:hover {
 #clima {
     padding: 15px;
     border-radius: 8px ;
-    max-width: 900px;
+    width: 900px;
     margin-left: auto;
     margin-right:auto;
     color: black;
@@ -91,7 +91,7 @@ button#buscar:hover {
   }
   
   .imagen-ciudad {
-    width: 300px;
+    width: 400px;
     height: 300px;
     border-radius: 10px;
     margin-right: 50px;
@@ -104,6 +104,11 @@ button#buscar:hover {
     flex-direction: column;
     margin-right:20px;
   }
+  .info-ciudad h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
   #bodyClima {
     position: relative;
     padding-top: 30px;
@@ -135,7 +140,7 @@ button#buscar:hover {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    margin-top: 2rem;
+    margin-top: 20%;
     text-align: center;
     transition: opacity 0.3s ease;
   }
@@ -250,6 +255,7 @@ button#buscar:hover {
   color: black;
   margin-bottom: 0.5rem;
   font-weight: 600;
+
 }
   
 .card-horizontal .card-texto p {
