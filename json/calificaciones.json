@@ -64,5 +64,11 @@
         "tipo_viaje": "viaje_familiar",
         "comentarios": "test",
         "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "manizales",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "Un lugar muy bonito",
+        "calificacion": "5"
     }
 ]
