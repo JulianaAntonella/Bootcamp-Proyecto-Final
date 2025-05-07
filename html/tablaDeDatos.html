@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/consultar.js"></script>
     <link rel="stylesheet" href="../estilos/reset.css">
     <link rel="stylesheet" href="../estilos/stickyFooter.css">
     <link rel="stylesheet" href="../estilos/header.css">
-    <link rel="stylesheet" href="../estilos/turismo.css">
+    <link rel="stylesheet" href="../estilos/nosotros.css">
     <link rel="stylesheet" href="../estilos/footer.css">
     <title>Document</title>
 </head>
@@ -20,45 +21,40 @@
         </div>
 
         <div class="logo">      
-            <img src="../img/VuelaSinFondo.png" alt="icono" class="icono-logo">
-    </div>
+                <img src="../img/Icono header.jpeg" alt="icono" class="icono-logo">
+        </div>
 
         <div class="nav-right">
-            <a href="../html/tablaDeDatos.html">INDICADORES DE VUELO</a>
+            <a href="../html/turismo.html">TURISMO</a>
 
         </div>
+
     </header>
+    
+    <main>
+        <table border="1">
+            <thead>
+              <tr>
+                <th>Ciudad Favorita</th>
+                <th>Motivo de Viaje</th>
+                <th>Comentarios</th>
+                <th>Calificacion</th>
+              </tr>
+            </thead>
+            <tbody id="tabla">
 
-    <img id="imagenPrincipal" src="../img/colombia-latinoamerica.jpg" alt="Sitio turístico principal">
-
-    <!-- Selector para elegir la ciudad y titulo-->
-    <section class="flex">
-        <div class="encabezado">
-            <h1>SITIOS TURISTICOS DE COLOMBIA</h1>
-            <select id="selectCiudad">
-                <option value="">Selecciona una ciudad</option>
-            </select>
-        </div>
-    </section>
-
-    <div id="imagenesBienvenida">
-        <img src="../img/Bogota1.jpg" alt="Bogota1">
-        <img src="../img/Barranquilla1.jpg" alt="Bogota2">
-        <img src="../img/Armenia1.jpg" alt="Pereira1">
-        <img src="../img/Cali1.jpg" alt="Pereira2">
-        <img src="../img/vacaciones-en-salento-1.jpg" alt="salento">
-        <img src="../img/Cañón del Güejar (Meta).jpg" alt="Cañon del Guejar">
-        <img src="../img/Guajira.jpg" alt="Guajira">
-        <img src="../img/Guatape.jpg" alt="Guatape">
-    </div>
-    <div class="container">
-        <section class="flex flex-direction">
-            <div id="nombreCiudad"></div>
-            <p id="descripcionCiudad"></p>
-            <div id="sitiosTuristicos"></div>
-        </section>
-        <script src="../js/turismo.js"></script>
-    </div>
+            </tbody>
+          </table>
+<div id="grafica1">
+          <img src="" alt="" id="grafica" >
+</div>
+<div id="grafica2"></div>
+          <img src="" alt="" id="grafica_tipo_viaje">
+  </div>
+          
+          
+    
+    </main>
 
     <footer>
         <section id="sectionFooter">
@@ -140,6 +136,16 @@
             </article>
     </div>
       </footer>
+      <script>
+       
+            document.getElementById("grafica").src = "http://127.0.0.1:5000/grafica";
+           
+        </script>
+        <script>
+       
+          document.getElementById("grafica_tipo_viaje").src = "http://127.0.0.1:5000/grafica_tipo_viaje";
+         
+      </script>
 
 </body>
 

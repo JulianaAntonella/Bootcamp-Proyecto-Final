@@ -1,0 +1,88 @@
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+textarea {
+    resize: vertical; /* Permite al usuario redimensionar verticalmente */
+}
+.rating {
+    display: flex;
+    flex-direction: row-reverse; /* Para que la estrella más alta esté a la derecha */
+    margin-bottom: 15px;
+}
+.rating input {
+    display: none;
+}
+.rating label {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: none;
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+}
+.rating label:before {
+    content: '★'; /* Carácter de estrella */
+    margin-top: 10px;;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.rating input:checked ~ label:before {
+    color: gold;
+}
+button[type="submit"] {
+    background-color: #103052;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+button[type="submit"]:hover {
+    background-color: #15365a;
+}
+.formulario-contenedor {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto auto;
+    padding: 20px;
+}
+
+.formulario-contenedor form {
+    flex-grow: 1;
+    margin-left: 40px; 
+    box-shadow: 0 0 100px rgba(0, 123, 255, 0.4);
+}
+
+.formulario-contenedor img {
+    max-width: 40%;
+    height: auto;
+    box-shadow: 0 0 100px rgba(0, 123, 255, 0.4);
+}

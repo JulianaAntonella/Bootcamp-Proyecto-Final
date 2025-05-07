@@ -1,0 +1,121 @@
+#sectionUno{
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap; /*que respete el ancho de sus hijos, no wrap seria que no lo respete*/
+    justify-content: space-around;
+    margin-top: 10px;
+    border-radius: 20px;
+   
+}
+
+.art{
+    width: 16%;
+    padding: 20px; /*borde dentro del contenedor*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 50px 20px 10px 0; /*cada numero uno de los 4 bordes
+    /*margin-left: 1px;*/
+    background: white;
+    box-shadow: 0 0 340px rgba(0, 123, 255, 0.4);
+}
+
+.art img {
+    width: 70%;
+    height: 190px;
+    border-radius: 50%; /*redondear bordes*/;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#sectionDos, #sectionTres {
+    display: flex;
+    flex-wrap: nowrap; /* para que no se apilen si hay espacio */
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+#articulo1 {
+    background-color: white;
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 123, 255, 0.4);
+}
+
+#articulo1 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#articulo2 {
+    width: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 30px rgba(0, 123, 255, 0.4);
+}
+
+#articulo2 h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#articulo2 p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.nosotros{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 97%;
+    height: auto;
+    display: flex;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.description{
+    color: rgb(0, 0, 0);
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    box-shadow: 0 0 80px rgba(0, 123, 255, 0.4);
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.nombres{
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+

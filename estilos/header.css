@@ -2,16 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 10%;
+    padding: 2px 10%;
     background-color: white;
     flex-wrap: wrap;
-    gap: 10px;
     position: relative;
 }
 
 .nav-left, .nav-right {
     display: flex;
-    gap: 40px;
+    gap: 100px;
     flex: 1;
     justify-content: center;
     flex-wrap: wrap;
@@ -21,29 +20,23 @@
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .logo {
     text-align: center;
+    margin: 0; 
   }
   
-  .logo-content {
-    position: relative;
-    display: inline-block;
-    font-size: 22px;
-    font-weight: bold;
-  }
-  
-  .dot {
-    width: 7px;
-    height: 7px;
-    background-color: #007bff;
-    border-radius: 50%;
-    position: absolute;
-    top: -5px;
-    right: -20px;
-  }
+  .icono-logo {
+    max-height: 120px; 
+    width: 180;      
+    display: block;
+    margin: 0 auto;
+    width: 170px;  
+    height: auto;
+    margin-left: 5px;
+}
 
 @media (max-width: 768px) {
     .header {

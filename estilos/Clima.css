@@ -1,23 +1,18 @@
 h1 {
     text-align: center;
     margin-top: 50px;
-    font-size: 28px;
     font-weight: bold;
-    color: #444;
+    color: #050505;
 }
 
 .imagen-fondo:not(:empty) {
   width: 100%;
-  height: 250px; /* o la altura que desees */
-  overflow: hidden;
 }
 
 .imagen-fondo img {
   width: 100%;
-  max-height: 500px;
+  height: 250px;
   object-fit: cover;
-  display: block;
-  margin-bottom: 30px;
 }
 
 .select-ciudad {
@@ -30,10 +25,10 @@ h1 {
     outline: none;
     width: 100%;
     max-width: 300px;
-    margin-bottom: 1rem;
     backdrop-filter: blur(4px);
     box-shadow: 0 2px 10px rgba(0,0,0,0.3);
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 100px rgba(0, 123, 255, 0.4)
   }
   
   .select-ciudad option {
@@ -42,6 +37,7 @@ h1 {
   }
 
   .contenedor-select {
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,14 +47,14 @@ h1 {
   
 button#buscar {
     padding: 10px 20px;
-    background-color: #465eb4;
+    background-color: #7a8fe9;
     color: white;
     font-size: 16px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin: 20px auto;
+    margin: 20px auto auto;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -69,19 +65,14 @@ button#buscar:hover {
 }
 
 #clima {
-    margin-top: 20px;
     padding: 15px;
-    border-radius: 8px;
-    max-width: 900px;
+    border-radius: 8px ;
+    width: 900px;
     margin-left: auto;
     margin-right:auto;
-    color: #000;
+    color: black;
     font-size: 18px;
-}
-
-#clima h3 {
-    font-size: 24px;
-    font-weight: bold;
+    box-shadow: 0 0 100px rgba(0, 123, 255, 0.4);  
 }
 
 #clima p {
@@ -93,50 +84,40 @@ button#buscar:hover {
     align-items: center;
     padding: 20px;
     background-color: #f5f5f5;
-    border-radius: 12px;
-    margin-top: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 3px;
     justify-content: center;
+  
   }
   
   .imagen-ciudad {
-    width: 300px;
+    width: 400px;
     height: 300px;
-    object-fit: cover;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 50px;
+
   }
   
   .info-ciudad {
     display: flex;
     padding: 5px;
     flex-direction: column;
-    margin-left:40px;
+    margin-right:20px;
   }
+  .info-ciudad h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
   #bodyClima {
     position: relative;
-    z-index: 0;
-    margin: 0;
-    padding: 0;
     padding-top: 30px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
   }
   
-  body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background: url('.gif') no-repeat center center fixed;
-    background-size: cover;
-    z-index: -1; /* Para que quede detrás de todo */
-    opacity: 0.5; /* Ajusta si quieres que el gif sea más o menos visible */
-  }
-
   .texto-claro {
     color: white;
   }
@@ -154,8 +135,184 @@ button#buscar:hover {
     text-align: center;
   }
 
+  #tituloCiudadSeleccionada {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 20%;
+    text-align: center;
+    transition: opacity 0.3s ease;
+  }
+
+/* ======== Estilos para Secciones de Alojamientos y Restaurantes ======== */
+
+.section-info {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: 40px 0px;
+  justify-content: center;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  max-width: 500%;
+  width: 100%;
+  padding: 1.5rem;
+  text-align: left;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column; 
+}
+
+.card:hover {
   
+  transform: translateY(-5px);
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
   
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-top: 1rem;
+}
   
+.card a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
   
+.card-horizontal {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  max-width: 900px;
+  width: 45%;
+  transition: transform 0.2s ease;
+  box-shadow: 0 0 40px rgba(0, 123, 255, 0.4);
+}
+  
+.card-horizontal.reverse {
+  width: 50%;
+}
+  
+.card-horizontal:hover {
+  transform: translateY(-5px);
+}
+  
+.card-horizontal .card-imagen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+  
+.card-horizontal .card-imagen img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  height: 400px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+  
+.card-horizontal .card-imagen h5.reserva-titulo {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  margin-right: 0;
+  text-align: left;
+}
+  
+.card-horizontal .card-texto h4 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  margin-top: 7px;
+}
+  
+.card-horizontal .card-texto h3 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+
+}
+  
+.card-horizontal .card-texto p {
+  font-size: 16px;
+  color: black;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+.card-horizontal .card-imagen .lista-enlaces {
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100%;
+  justify-content: flex-start;
+}
+  
+.card-horizontal .card-imagen .lista-enlaces li {
+  margin-bottom: 0;
+}
+  
+.card-horizontal .card-imagen .lista-enlaces a {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+  
+.card-horizontal .card-imagen .lista-enlaces a:hover {
+  background-color: #e0e0e0;
+  color: #007bff;
+  border-color: #007bff;
+}
+  
+.card-horizontal .card-texto .lista-precios li strong {
+  font-weight: bold;
+  border-radius: 5px;
+  color: black;
+  display:block;
+  margin-top: 12px; 
+}
+  
+.card-texto {
+  padding: 12px;
+}
+
+.lista-precios {
+  list-style: none;
+}
+
   

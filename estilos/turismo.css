@@ -6,10 +6,10 @@ html, body {
 
 #imagenPrincipal {
   width: 100%;
-  max-height: 200px;
+  max-height: 21.875rem;
   object-fit: cover;
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .encabezado {
@@ -17,9 +17,8 @@ html, body {
   flex-wrap: wrap;
   align-items: center;
   gap: 20px;
-  margin: 30px auto;
-  max-width: 1200px;
   justify-content: center;
+  width: 100%;;
 }
 
 .encabezado h1 {
@@ -29,10 +28,10 @@ html, body {
 }
 
 #selectCiudad {
-  padding: 5px;
+  padding: 7px;
   font-size: 14px;
   border-radius: 10px 10px 10px 10px;
-  width: 16%;
+  width: 15%;
 }
 
 #imagenesBienvenida {
@@ -45,6 +44,8 @@ html, body {
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
+  margin-top: 10px;
+  box-shadow: 0 0 80px rgba(0, 123, 255, 0.4);
 }
 
 #imagenesBienvenida img {
@@ -65,9 +66,7 @@ html, body {
 #nombreCiudad h2 {
   font-size: 20px;
   font-weight: bold;
-   margin-bottom: 20px;
-  padding: 0px 530px;
-  margin-top: 0px;
+  margin: 20px 25%;
   color: #007bff;
 }
 
@@ -75,16 +74,19 @@ html, body {
   font-size: 15px;
   color: black;
   font-family: Arial, sans-serif;
-  padding: 0px 530px;
+  margin: 0 25%;
+}
+
+#sitiosTuristicos{
+  margin: 0 25%;
 }
 
 .titulo-sitios {
   font-size: 18px;
   color: #007bff;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 10px;
   font-weight: bold;
-  padding: 0px 530px;
 }
 
 /* Estilo para cada sitio turístico */
@@ -93,12 +95,11 @@ html, body {
   flex-direction: column;
   gap: 10px;
   background: #ffffff;
-  max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  border: 2px solid #ccc;
+  border: 2px solid #0a0a0a;
   border-radius: 10px;
-  box-shadow: 8px 4px 8px rgba(1, 0, 0, 0.1);
+  box-shadow: 0 0 340px rgba(0, 123, 255, 0.4);
   background-color: white;
 }
 
@@ -119,9 +120,9 @@ html, body {
 
 /* Imagen */
 .imagen-sitio {
-  width: 100%;           
+  width: 50%;           
   max-width: 400px;      
-  height: 200px;         
+  height: 50%;         
   object-fit: cover;     
   border-radius: 8px;  
   display: block;
@@ -129,5 +130,13 @@ html, body {
   margin-bottom: 20px;
 } 
   
+.flex {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 
+.flex-direction{
+  flex-direction: column;
+}
 

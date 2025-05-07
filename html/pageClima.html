@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clima por Ciudad</title>
+  <link rel="stylesheet" href="../estilos/reset.css">
+  <link rel="stylesheet" href="../estilos/stickyFooter.css">
   <link rel="stylesheet" href="../estilos/header.css">
   <link rel="stylesheet" href="../estilos/Clima.css">
   <link rel="stylesheet" href="../estilos/reset.css">
   <link rel="stylesheet" href="../estilos/footer.css">
-
 </head>
 <body>
   <header class="header">
@@ -17,98 +18,131 @@
         <a href="../html/turismo.html">TURISMO</a>
     </div>
 
-    <div class="logo">
-        <span class="logo-content">
-            VUELA ALTO
-            <span class="dot"></span>
-        </span>
-    </div>
+    <div class="logo">      
+      <img src="../img/VuelaSinFondo.png" alt="icono" class="icono-logo">
+</div>
 
     <div class="nav-right">
-        <a href="#">ESTADISTICAS VUELOS</a>
-        
+        <a href="../html/tablaDeDatos.html">INDICADORES DE VUELO</a>
     </div>
+  </header>
 
-</header>
+  <div id="imagen-hero" class="imagen-fondo"></div>
 
-
-<div id="imagen-hero" class="imagen-fondo">
-</div>
   <h1 id="bodyClima">Entérate sobre el clima en tu ciudad o tu destino</h1>
+  
   <div class="contenedor-select">
-  <select id="ciudad" class="select-ciudad">
-    <option value="">Selecciona una ciudad</option>
-    <option value="Pereira">Pereira</option>
-    <option value="Manizales">Manizales</option>
-    <option value="Medellín">Medellín</option>
-    <option value="Cartagena">Cartagena</option>
-    <option value="San Andrés">San Andrés</option>
-    <option value="Armenia">Armenia</option>
-    <option value="Cali">Cali</option>
-    <option value="Bogotá">Bogotá</option>
-    <option value="Barranquilla">Barranquilla</option>
-    <option value="Neiva">Neiva</option>
-    <option value="Amazonas">Amazonas</option>
-    <option value="Riohacha">Riohacha</option>
-  </select>
-</div>
+    <select id="ciudad" class="select-ciudad">
+      <option value="">Selecciona una ciudad</option>
+      <option value="Pereira">Pereira</option>
+      <option value="Manizales">Manizales</option>
+      <option value="Medellín">Medellín</option>
+      <option value="Cartagena">Cartagena</option>
+      <option value="Armenia">Armenia</option>
+      <option value="Cali">Cali</option>
+      <option value="Bogotá">Bogotá</option>
+      <option value="Barranquilla">Barranquilla</option>
+      <option value="Neiva">Neiva</option>
+      <option value="Amazonas">Amazonas</option>
+      <option value="Riohacha">Riohacha</option>
+    </select>
+  </div>
+
   <button id="buscar">Buscar</button>
   
-  <div id="clima"></div>
+  <div id="clima">
+    <p>Por favor, selecciona una ciudad para ver el reporte del clima.</p>
+  </div>
   <div id="resultados"></div>
+  
+  <h2 id="tituloCiudadSeleccionada" style="text-align: center; margin-top: 2rem;"></h2>
+
+   <div id="contenedorRecomendaciones" class="section-info">
+    </div>
+  
 
   <script src="../js/clima.js"></script>
+
   <footer>
     <section id="sectionFooter">
-        <article class="redes">
-        <a href="https://www.instagram.com" target="_blank">
-        <img src="../img/instagram_azul.png" alt="">
-        </a>
-        </article>
+        <div class="columna-logo-redes">
+          <img src="../img/VuelaFondoNegro.png" alt="Logo Vuela" class="footer-logo">
+          <h2 class="tituloFooter">SIGUENOS</h2>
+      
+          <div class="redes-contenedor">
+            <a href="https://www.instagram.com" target="_blank">
+              <img src="../img/instagram_azul.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+              <img src="../img/facebook_azul.png" alt="Facebook">
+            </a>
+            <a href="https://www.x.com" target="_blank">
+              <img src="../img/twitter_azul.png" alt="Twitter">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+              <img src="../img/linkedin_azul.png" alt="LinkedIn">
+            </a>
+          </div>
+        </div>
+      
+        <nav id="navfooter">
+            <h2 class="tituloFooter">MENÚ</h2>
+            <ul class="menu-footer">
+                <li><a class="afooter" href="../html/nosotros.html" target="_blank">Acerca de nosotros</a></li>
+                <li><a class="afooter" href="https://www.despegar.com.co" target="_blank">Nuestros aliados</a></li>
+                <li><a class="afooter" href="https://aviacionaldia.com/" target="_blank">Noticias</a></li>
+                <li><a class="afooter" href="https://linkedin.com" target="_blank">Trabaja con nosotros</a></li>
+                <li><a class="afooter" href="https://www.gmail.com" target="_blank">Contáctanos</a></li>
+            </ul>
+          </nav>
 
-        <article class="redes">
-        <a href="https://www.facebook.com" target="_blank">
-        <img src="../img/facebook_azul.png" alt="">
-        </a>
-        </article>
+          <nav id="navfooter">
+            <h2 class="tituloFooter">UBICACIONES</h2>
+            <ul class="menu-footer">
+                <li><a class="afooter" href="" target="_blank">Manizales</a></li>
+                <li><a class="afooter" href="" target="_blank">Bogota</a></li>
+                <li><a class="afooter" href="" target="_blank">Cali</a></li>
+                <li><a class="afooter" href="" target="_blank">Medellin</a></li>
+            </ul>
+          </nav>
+        
+          <div class="columna-contacto">
+            <h2 class="tituloFooter"></h2>
+            <div class="contacto-item">
+                <img src="../img/ubicacion.png" alt="Ubicación" class="icono-contacto">
+                <span>Avenida Santander. <br>
+                  Edificio Capitalia, Piso 7 <br>
+                  Manizales, Colombia
+              </span>
+              </div>
+              <div class="contacto-item">
+                <img src="../img/telefono.png" alt="Teléfono" class="icono-contacto">
+                <span>+57 (321) 123 4567</span>
+              </div>
+            
+            <div class="contacto-item">
+              <img src="../img/mail_azul.png" alt="Correo" class="icono-contacto">
+              <span>serviciovuela@vuela.com</span>
+            </div>
+            
+            
+          </div>
 
-        <article class="redes">
-        <a href="https://www.gmail.com" target="_blank">
-        <img src="../img/mail_azul.png" alt="">
-        </a>
-        </article>
+          <div class="columna-opinion">
 
-        <article class="redes">
-        <a href="https://www.x.com" target="_blank">
-        <img src="../img/twitter_azul.png" alt="">
-        </a>
-        </article>
+            <div class="recuadro-opinion">
+              <p class="texto-opinion">¡Queremos escucharte!<br>Dejanos saber tus comentarios</p>
+              <button class="boton-opinion" onclick="window.location.href='formulario.html'">OPINA AQUI</button>
+            </div>
+          </div>
 
-        <article class="redes">
-        <a href="https://www.linkedin.com" target="_blank">
-        <img src="../img/linkedin_azul.png" alt="">
-        </a>
-        </article>
-
-    </section>
-
-    <nav id="navfooter">
-        <ul>
-            <li><a class="afooter" href="https://www.despegar.com.co" target="_blank">Nuestros aliados</a></li>
-            <li><a class="afooter" href="https://www.linkedin.com" target="_blank">Acerca de nosotros</a></li>
-            <li><a class="afooter" href="https://aviacionaldia.com/" target="_blank">Noticias</a></li>
-            <li><a class="afooter" href="https://www.gmail.com" target="_blank">Contactanos</a></li>
-        </ul>
-    </nav>
-
-</footer>
-<div>
-    <div id="bottomFooter">
+      </section>
+      <div id="bottomFooter">
         <article>
-            <p>COPYRIGHT &copy; 2025; DESIGNED BY GROWTH TEAM</p>
+            <p>Copyright &copy; 2025; Designed by Vuela Team</p>
         </article>
 </div>
-</div>
+  </footer>
 
 </body>
 </html>
