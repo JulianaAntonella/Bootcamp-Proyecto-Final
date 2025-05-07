@@ -412,5 +412,11 @@
         "tipo_viaje": "aventura_naturaleza",
         "comentarios": "muy bonito todo",
         "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "san andres",
+        "tipo_viaje": "aventura_naturaleza",
+        "comentarios": "muy hermoso",
+        "calificacion": "5"
     }
 ]

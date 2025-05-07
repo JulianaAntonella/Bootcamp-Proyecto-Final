@@ -53,48 +53,22 @@ def grafica_ciudad():
     cantidades = list(conteo.values())
 
     plt.figure(figsize=(10, 6))
-    plt.bar(ciudades, cantidades, color="orange", edgecolor="green")
+    plt.bar(ciudades, cantidades, color="#3399ff", edgecolor="blue")
     plt.title("Ciudad Favorita")
     plt.xlabel("Ciudad")
     plt.ylabel("Cantidad")
     plt.xticks(rotation=90)  # Gira las etiquetas del eje X para que no se encimen
     plt.tight_layout()
+    plt.figtext(0.5, -0.05,
+            "Este gráfico muestra cuántas veces fue elegida cada ciudad como destino favorito, a través del formulario.",
+            ha='center', fontsize=10, fontname="Arial", wrap=True)
 
     img = io.BytesIO()
-    plt.savefig(img, format="png")
+    plt.savefig(img, format="png", bbox_inches='tight')
     plt.close()
     img.seek(0)
     return Response(img.getvalue(), mimetype="image/png")
 
-@app.route("/grafica_tipo_viaje")
-def grafica_tipo_viaje():
-    calificaciones = leer_datos()
-    
-    conteo = {}
-    for i in calificaciones:
-        tipos = i.get("tipo_viaje")
-        if tipos:
-            if tipos in conteo:
-                conteo[tipos] += 1
-            else:
-                conteo[tipos] = 1
-
-    tipos = list(conteo.keys())
-    cantidades = list(conteo.values())
-
-    plt.figure(figsize=(8, 6))
-    plt.bar(tipos, cantidades, color="lightgreen", edgecolor="black")
-    plt.title("Motivo de Viaje")
-    plt.xlabel("Tipo de viaje")
-    plt.ylabel("Cantidad")
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-
-    img = io.BytesIO()
-    plt.savefig(img, format="png")
-    plt.close()
-    img.seek(0)
-    return Response(img.getvalue(), mimetype="image/png")
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
