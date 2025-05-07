@@ -66,6 +66,10 @@
         "calificacion": "3"
     },
     {
+        "ciudadFavorita": "manizales",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "Un lugar muy bonito",
+        "calificacion": "5"
         "ciudadFavorita": "armenia",
         "tipo_viaje": "ocio_relax",
         "comentarios": "tranquilidad",
