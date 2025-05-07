@@ -64,5 +64,353 @@
         "tipo_viaje": "viaje_familiar",
         "comentarios": "test",
         "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "armenia",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "tranquilidad",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "armenia",
+        "tipo_viaje": "aventura_naturaleza",
+        "comentarios": "bonito",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "armenia",
+        "tipo_viaje": "cultura_historia",
+        "comentarios": "no me gusto",
+        "calificacion": "1"
+    },
+    {
+        "ciudadFavorita": "armenia",
+        "tipo_viaje": "viaje_familiar",
+        "comentarios": "linda",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "armenia",
+        "tipo_viaje": "negocios_eventos",
+        "comentarios": "interesante",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "armenia",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "tranquilo",
+        "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "armenia",
+        "tipo_viaje": "cultura_historia",
+        "comentarios": "no e slo que esperaba",
+        "calificacion": "2"
+    },
+    {
+        "ciudadFavorita": "barranquilla",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "bonito",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "barranquilla",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "alegre",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "barranquilla",
+        "tipo_viaje": "negocios_eventos",
+        "comentarios": "no me gusto",
+        "calificacion": "1"
+    },
+    {
+        "ciudadFavorita": "barranquilla",
+        "tipo_viaje": "viaje_familiar",
+        "comentarios": "divertido",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "barranquilla",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "relax",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "barranquilla",
+        "tipo_viaje": "viaje_familiar",
+        "comentarios": "bueno",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "barranquilla",
+        "tipo_viaje": "cultura_historia",
+        "comentarios": "no me gusto",
+        "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "barranquilla",
+        "tipo_viaje": "negocios_eventos",
+        "comentarios": "estuvo bien",
+        "calificacion": "2"
+    },
+    {
+        "ciudadFavorita": "bogota",
+        "tipo_viaje": "negocios_eventos",
+        "comentarios": "mucho trafico",
+        "calificacion": "1"
+    },
+    {
+        "ciudadFavorita": "bogota",
+        "tipo_viaje": "cultura_historia",
+        "comentarios": "me gusto",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "bogota",
+        "tipo_viaje": "negocios_eventos",
+        "comentarios": "bien",
+        "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "bogota",
+        "tipo_viaje": "escapada_urbana",
+        "comentarios": "estuvo bueno",
+        "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "cali",
+        "tipo_viaje": "viaje_familiar",
+        "comentarios": "me gusto mucho",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "cali",
+        "tipo_viaje": "aventura_naturaleza",
+        "comentarios": "hay mucho que ver",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "cartagena",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "muchos vendedores",
+        "calificacion": "1"
+    },
+    {
+        "ciudadFavorita": "cartagena",
+        "tipo_viaje": "viaje_familiar",
+        "comentarios": "me gusto",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "cartagena",
+        "tipo_viaje": "cultura_historia",
+        "comentarios": "precios altos",
+        "calificacion": "2"
+    },
+    {
+        "ciudadFavorita": "cartagena",
+        "tipo_viaje": "negocios_eventos",
+        "comentarios": "buenos teatros",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "cartagena",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "buenos hoteles",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "cartagena",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "me encanto",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "cartagena",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "relajante",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "cartagena",
+        "tipo_viaje": "viaje_familiar",
+        "comentarios": "divertido",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "cartagena",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "me gusto",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "cartagena",
+        "tipo_viaje": "viaje_familiar",
+        "comentarios": "fue bueno",
+        "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "manizales",
+        "tipo_viaje": "aventura_naturaleza",
+        "comentarios": "lindo",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "manizales",
+        "tipo_viaje": "viaje_familiar",
+        "comentarios": "me encanto",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "manizales",
+        "tipo_viaje": "aventura_naturaleza",
+        "comentarios": "ciudad muy bonita",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "manizales",
+        "tipo_viaje": "viaje_familiar",
+        "comentarios": "bonita",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "manizales",
+        "tipo_viaje": "aventura_naturaleza",
+        "comentarios": "lindo el parque de los nevados",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "medellin",
+        "tipo_viaje": "negocios_eventos",
+        "comentarios": "me gusto",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "medellin",
+        "tipo_viaje": "escapada_urbana",
+        "comentarios": "buena ciudad",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "medellin",
+        "tipo_viaje": "cultura_historia",
+        "comentarios": "mas o menos",
+        "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "medellin",
+        "tipo_viaje": "viaje_familiar",
+        "comentarios": "lo maximo",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "medellin",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "genial",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "neiva",
+        "tipo_viaje": "aventura_naturaleza",
+        "comentarios": "mucho calor",
+        "calificacion": "2"
+    },
+    {
+        "ciudadFavorita": "neiva",
+        "tipo_viaje": "aventura_naturaleza",
+        "comentarios": "me encanto",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "neiva",
+        "tipo_viaje": "cultura_historia",
+        "comentarios": "me gustan los fosiles",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "neiva",
+        "tipo_viaje": "aventura_naturaleza",
+        "comentarios": "bonito",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "neiva",
+        "tipo_viaje": "cultura_historia",
+        "comentarios": "bueno",
+        "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "neiva",
+        "tipo_viaje": "aventura_naturaleza",
+        "comentarios": "bonito",
+        "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "popayan",
+        "tipo_viaje": "cultura_historia",
+        "comentarios": "bonito",
+        "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "popayan",
+        "tipo_viaje": "cultura_historia",
+        "comentarios": "mas o menos",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "san andres",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "descanso",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "san andres",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "bonito",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "san andres",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "lindo",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "san andres",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "hermosos",
+        "calificacion": "4"
+    },
+    {
+        "ciudadFavorita": "san andres",
+        "tipo_viaje": "ocio_relax",
+        "comentarios": "mal clima",
+        "calificacion": "2"
+    },
+    {
+        "ciudadFavorita": "san andres",
+        "tipo_viaje": "viaje_familiar",
+        "comentarios": "genial",
+        "calificacion": "5"
+    },
+    {
+        "ciudadFavorita": "san andres",
+        "tipo_viaje": "viaje_familiar",
+        "comentarios": "me gusto",
+        "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "san andres",
+        "tipo_viaje": "viaje_familiar",
+        "comentarios": "genial",
+        "calificacion": "3"
+    },
+    {
+        "ciudadFavorita": "san andres",
+        "tipo_viaje": "aventura_naturaleza",
+        "comentarios": "muy bonito todo",
+        "calificacion": "3"
     }
 ]
