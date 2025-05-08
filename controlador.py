@@ -54,14 +54,14 @@ def grafica_ciudad():
 
     plt.figure(figsize=(10, 6))
     plt.bar(ciudades, cantidades, color="#3399ff", edgecolor="blue")
-    plt.title("Ciudad Favorita")
-    plt.xlabel("Ciudad")
-    plt.ylabel("Cantidad")
+    plt.title("Ciudad Favorita", fontsize=20, color="#000000", fontweight="bold", fontname="Arial")
+    plt.xlabel("Ciudad", fontsize=10, color="#000000", fontweight="bold", fontname="Arial") 
+    plt.ylabel("Cantidad", fontsize=10, color="#000000", fontweight="bold", fontname="Arial")
     plt.xticks(rotation=90)  # Gira las etiquetas del eje X para que no se encimen
     plt.tight_layout()
     plt.figtext(0.5, -0.05,
             "Este gráfico muestra cuántas veces fue elegida cada ciudad como destino favorito, a través del formulario.",
-            ha='center', fontsize=10, fontname="Arial", wrap=True)
+            ha='center', fontsize=15, fontname="Arial", wrap=True, color="#000000")
 
     img = io.BytesIO()
     plt.savefig(img, format="png", bbox_inches='tight')
