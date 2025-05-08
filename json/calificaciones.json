@@ -73,12 +73,6 @@
     },
     {
         "ciudadFavorita": "armenia",
-        "tipo_viaje": "ocio_relax",
-        "comentarios": "tranquilidad",
-        "calificacion": "4"
-    },
-    {
-        "ciudadFavorita": "armenia",
         "tipo_viaje": "aventura_naturaleza",
         "comentarios": "bonito",
         "calificacion": "4"
