@@ -364,7 +364,7 @@ window.addEventListener("DOMContentLoaded", () => {
                         nombre: "Restaurant Guru - Leticia",
                         url: "https://restaurantguru.com/best-restaurants-in-Leticia",
                     },
-                    // OpenTable puede tener opciones limitadas
+                    
                 ],
             },
         },
@@ -653,7 +653,7 @@ window.addEventListener("DOMContentLoaded", () => {
                         nombre: "Restaurant Guru",
                         url: "https://restaurantguru.com/best-restaurants-in-Armenia-Colombia",
                     },
-                    // OpenTable puede tener menos opciones específicas
+                   
                 ],
             },
         },

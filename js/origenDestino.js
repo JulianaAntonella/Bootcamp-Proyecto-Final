@@ -135,7 +135,7 @@ function actualizarDestino() {
               .catch(error => console.error("Error al cargar pieDePagina.json:", error));
       
           }
-        })  // Cierre de la primera promesa 'vuelos.json'
+        })  
         .catch(error => {
           resultadosDiv.innerHTML = "<p>Error al cargar los vuelos.</p>";
           console.error("Error al cargar el archivo vuelos.json:", error);
